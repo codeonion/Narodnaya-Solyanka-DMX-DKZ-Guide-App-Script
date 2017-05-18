@@ -35,6 +35,7 @@ public class guide : MonoBehaviour {
 	string t_27_Pripyat  = "Nursery Schools\nIn kindergarten, on the floor in one room, littered with boxes. Here, in one of the boxes. \n\nOn a tree near the bus station \nLook at the tree between bus and playground. \n\nOn tap \nNear the central bus station is Crane. Let's just say that to reach the cache, we must also keep a little akrabatikoy. \n\nPripyat in the hotel #1 \nAt the transition to the conference room. Look at all the angles on the roof of the transition. \n\nPripyat in the hotel #2 \nInspect for obstructions on the stairs. Attention! Stairs in Hotel TWO!! \n\nIn the residential building #1 \nRight \"supermarket\", a distant staircase, at the entrance to the yard. \n\nIn the residential building #2 \nRight \"supermarket\", a distant staircase, the elevator shaft. \n\nIn the residential building #3 \nLeft the shop, that that bus station. Middle entrance, near the exit to the yard. And yet, houses with gastronomes on the ground floor in Pripyat TWO, described caches can be either in one or the other.";
 
 
+
 	private Button myButton;
 	public string selection;
 
@@ -50,6 +51,7 @@ public class guide : MonoBehaviour {
 		switch (selection) {
 		case "t_1_YourFirstDay":
 			targetTextComponent.text = t_1_YourFirstDay;
+			
 			break;
 		case "t_2_SearchForTheLostExpedition":
 			targetTextComponent.text = t_2_SearchForTheLostExpedition;
